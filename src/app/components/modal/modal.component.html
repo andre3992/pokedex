@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="Title main-title">
+        Pokédex
+    </div>
+    <div class="ID pokemon-card normal-card">
+        {{ data.id ? rearrangeId(data.id) : '' }}
+    </div>
+    <div class="Type">
+        <p class="main-title">Type</p>
+        <div *ngFor="let type of data.types" [ngClass]="type.type.name" class="pokemon-card">
+            {{type?.type?.name}}
+        </div>
+    </div>
+    <div class="Main-Info">
+        <p class="main-title">Abilities</p>
+        <div *ngFor="let abilities of data.abilities" class="normal-card pokemon-card">
+            {{abilities.ability.name}}
+        </div>
+    </div>
+    <div class="Image">
+        <img [src]="data.sprites?.front_default" width="100%">
+        <img [src]="data.sprites?.back_default" width="100%">
+    </div>
+    <div class="Secondary-Info"> 
+        <p class="main-title">Weight</p>
+        <div class="normal-card pokemon-card">
+            {{data.weight}}
+        </div>
+    </div>
+</div>

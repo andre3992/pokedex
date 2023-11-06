@@ -1,0 +1,8 @@
+<div #containerref *ngIf="pokemonList" class="container">
+    <ng-container *ngFor="let pokemon of pokemonList">
+        <app-pokemon-info [pokemon]="pokemon"></app-pokemon-info>
+    </ng-container>
+</div>
+<div *ngIf="showErrorMessage" class="container">
+    Something went wrong, try again later
+</div>

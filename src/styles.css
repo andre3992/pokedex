@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url(./assets/list_bg.jpg);
+    font-family: cursive;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mdc-dialog__container{
+    box-shadow: 0px 0px 10px 4px white !important;
+}
+
+.backdropBackground{
+    background-color: #464646f2;
+    backdrop-filter: blur(4px);
+}

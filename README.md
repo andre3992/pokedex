@@ -1,27 +1,59 @@
-# Pokedex
+# Pokédex Information App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This is a simple web application for viewing information about Pokémon. It displays a list of Pokémon and allows you to view detailed information for each one.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Running Tests](#running-tests)
+- [Usage](#usage)
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before you begin, ensure you have met the following requirements:
 
-## Build
+- Node.js and npm installed on your machine
+- Angular CLI installed globally (`npm install -g @angular/cli`)
+- An internet connection (to fetch Pokémon data from an API)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Getting Started
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone this repository to your local machine:
 
-## Running end-to-end tests
+   ```bash
+   git clone https://github.com/yourusername/pokemon-info-app.git
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+   Acess the directory
 
-## Further help
+   cd pokemon-info-app
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation
+
+   Install the project dependencies:
+
+   npm install
+
+### Running the Application
+
+    To run the application, you can use the Angular CLI. Run the following command:
+
+    ng serve
+
+### Running Tests
+
+    To run the tests for this application, use the following command:
+
+    ng test
+
+## You can view test results in your terminal or on the Karma web interface.
+
+### Usage
+
+    Browse the list of Pokémon on the main page.
+    Click on a Pokémon card to view more details.
+    To close the details dialog, click the "Close" button or outside the dialog.
