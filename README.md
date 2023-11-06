@@ -23,7 +23,6 @@ Before you begin, ensure you have met the following requirements:
 
   Clone this repository to your local machine:
 
-   ```bash
    git clone https://github.com/yourusername/pokemon-info-app.git
 
    Acess the directory
