@@ -23,7 +23,7 @@ Before you begin, ensure you have met the following requirements:
 
   Clone this repository to your local machine:
 
-   git clone https://github.com/yourusername/pokemon-info-app.git
+   git clone https://github.com/andre3992/pokedex/tree/main
 
    Acess the directory
 
