@@ -21,9 +21,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
-### Installation
-
-1. Clone this repository to your local machine:
+  Clone this repository to your local machine:
 
    ```bash
    git clone https://github.com/yourusername/pokemon-info-app.git
@@ -50,7 +48,7 @@ Before you begin, ensure you have met the following requirements:
 
     ng test
 
-## You can view test results in your terminal or on the Karma web interface.
+    You can view test results in your terminal or on the Karma web interface.
 
 ### Usage
 
